@@ -4,7 +4,7 @@ Atividade avaliativa de OOP em PHP com a turma TII05
 ## Instruções:
 - Realize um fork ou clone o repositório e suba um novo no seu github.
 - Implemente uma interface base para definir a regra de todas as classes do diretorio /dao
-- Implemente as propriedades e funções necessárias nas entidades Aluno e Disciplinas para que as páginas de detalhes dos mesmos venha a ser exibida corretamente
+- Implemente as propriedades e funções necessárias nas entidades Pizza e Sabor para que as páginas de detalhes dos mesmos venha a ser exibida corretamente
 - Implemente as consultas que geram os dados associados para a exibição dessas páginas
 - Reaize um commit em seu repositório e envie um link da atividade no Teams
 
