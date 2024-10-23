@@ -2,7 +2,6 @@
 
 require_once 'config/Database.php';
 require_once 'entity/Sabor.php';
-require_once 'entity/Pizza.php';
 
 class SaborDAO {
     private $db;
@@ -23,8 +22,7 @@ class SaborDAO {
     }
 
     // Método para obter sabor com suas pizzas
-    public function getSaborWithPizzas($saborID) {
-       
+    public function getSaborWithPizzas() {       
         return null;
     }
 }

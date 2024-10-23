@@ -1,15 +1,10 @@
 <?php
 require_once 'dao/SaborDAO.php';
 
-$saborDAO = new SaborDAO();
-$saborID = $_GET['id'] ?? null;
+// Instanciar objetos necessários e verificação de ID
+$saborDAO = null;
+$saborID = null;
 
-if ($saborID) {
-    $sabor = $saborDAO->getSaborWithPizzas($saborID);
-} else {
-    echo "Sabor não encontrado!";
-    exit;
-}
 ?>
 
 <!DOCTYPE html>

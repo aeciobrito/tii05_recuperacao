@@ -1,15 +1,9 @@
 <?php
 require_once 'dao/PizzaDAO.php';
 
-$pizzaDAO = new PizzaDAO();
-$pizzaID = $_GET['id'] ?? null;
-
-if ($pizzaID) {
-    $pizza = $pizzaDAO->getPizzaWithSabores($pizzaID);
-} else {
-    echo "Pizza não encontrada!";
-    exit;
-}
+// Instanciar objetos necessários e verificação de ID
+$pizzaDAO = null;
+$pizzaID = null;
 ?>
 
 <!DOCTYPE html>
